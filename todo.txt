@@ -1,0 +1,9 @@
+05 February 2016
+-------------------------
+
+- Finish Typography section
+- Tables
+- Buttons
+- Grids
+- Structural Elements
+- Menus

@@ -1,0 +1,162 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:500|Pontano+Sans);
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;}
+
+body {line-height: 1;}
+ol, ul {list-style: none;}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;}
+
+/*******************************************/
+/******* B A S E   S T Y L E S *************/
+/*******************************************/
+
+html {background-color: #fcfcfc;}
+
+/*******************************************/
+/******* T Y P O G R A P H Y ***************/
+/*******************************************/
+
+html {font-size: 16px;}
+
+body {
+  font-family: 'Pontano Sans', 'Arial', sans-serif;
+  font-weight: 500;
+  line-height: 1.45;
+  color: #333; }
+
+p,ol,ul {
+    font-size: 1em;
+    margin-bottom: 1.3em;}
+
+h1, h2, h3, h4 {
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2; }
+
+h1 {
+  margin-top: 0;
+  font-size: 6.854em; }
+
+h2 {font-size: 4.236em;}
+h3 {font-size: 2.618em;}
+h4 {font-size: 1.618em;}
+
+small, .font_small {font-size: 0.618em;}
+
+em {
+    font-style:italic;
+    font-weight: 700; }
+
+strong {
+    font-weight: 700;
+    color: #222; }
+
+q:before {content: "\201C";}
+q:after {content: "\201D";}
+
+a{transition: .15s;}
+a:link,
+a:active{color:#36A9E3;}
+a:hover{color:#42C0FF;}
+a:visited{color:#1A526E;}
+
+code{ font-family: 'Source Code Pro', sans-serif; }
+
+blockquote {
+    margin-left: 3em;
+    margin-right: 3em;
+    background-color: #eee;
+    border-left: 3px solid #333;
+    padding: 1em 2em;}
+
+blockquote p:before{ content: "\201C"; }
+blockquote p:after{ content: "\201D"; }
+blockquote p{ margin: 0; }
+
+cite{
+    font-size:1.414em;
+    margin-top:1em;}
+
+blockquote cite{
+    clear:both;
+    float:right; }
+
+ol{
+    font-size: 1em;
+    list-style: decimal;
+    margin-left: 2.414em;}
+
+ul{
+    font-size: 1em;
+    list-style: disc;
+    margin-left: 2.414em; }
+
+
+/*******************************************/
+/******* T A B L E S ***********************/
+/*******************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
