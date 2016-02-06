@@ -38,7 +38,7 @@ Suspendisse rhoncus, est ac sollicitudin viverra, leo orci sagittis massa, sed c
 
 <blockquote>
 <p>I am not one who was born in the possession of knowledge; I am one who is fond of antiquity, and earnest in seeking it there.</p>
-<cite>Confucius, The Confucian Analects</cite>
+    <footer><cite>Confucius, The Confucian Analects</cite></footer>
 </blockquote>
 
 
@@ -145,6 +145,46 @@ ut labore et dolore magna aliqua.</p>
 
    <h4>Tables</h4>
 	<table summary="Jimi Hendrix albums">
+  <caption>Jimi Hendrix - albums</caption>
+  <thead>
+	  <tr>
+		<th>Album</th>
+		<th>Year</th>
+		<th>Price</th>
+	  </tr>
+	</thead>
+		  <tfoot>
+	  <tr>
+		<td>Album</td>
+		<td>Year</td>
+		<td>Price</td>
+	  </tr>
+	</tfoot>
+	<tbody>
+	  <tr>
+		<td>Are You Experienced </td>
+		<td>1967</td>
+		<td>$10.00</td>
+	  </tr>
+	  <tr>
+		<td>Axis: Bold as Love</td>
+		<td>1967</td>
+		<td>$12.00</td>
+	  </tr>
+	 <tr>
+		<td>Electric Ladyland</td>
+		<td>1968</td>
+		<td>$10.00</td>
+	  </tr>
+	  <tr>
+		<td>Band of Gypsys</td>
+		<td>1970</td>
+		<td>$12.00</td>
+	  </tr>
+			<tbody>
+	</table>
+        
+        <table summary="Jimi Hendrix albums" class="table-condensed">
   <caption>Jimi Hendrix - albums</caption>
   <thead>
 	  <tr>
@@ -305,103 +345,27 @@ Pellentesque tempor, dui ut ultrices viverra, neque urna blandit nisi, id accums
 
 </table>
 
-<hr>
-
 <form action="#">
-<fieldset>
-<legend>Form legend</legend>
+   <header>Enter Your Details</header>
+    <div class="form-body">
+        <div><label for="f1">Optional Text input:<span class="mandatory">*</span></label><input type="text" id="f1" placeholder="input text" /></div>
+        <div><label for="rt1">Required Text input:<span class="mandatory">*</span></label><input type="text" id="rt1" required /></div>
+        <div><label for="twp1">Text input with pattern requirement and placeholder:</label><input type="text" pattern="\d{5}(-\d{4})?" title="a US Zip code, with or without the +4 exension" placeholder="12345-6789"/></div>
+        <div><label for="s1">Search input:<span class="mandatory">*</span></label><input type="search" id="s1" /></div>
+        <div><label for="e1">Email input:<span class="mandatory">*</span></label><input type="email" id="e1" /></div>
+        <div><label for="u1">URL input:</label><input type="url" id="u1" /></div>
+        <div><label for="pw">Password input:</label><input type="password" id="pw" value="password" /></div>
+        <div><label for="f2">Radio input:</label><input type="radio" id="f2" /></div>
 
-<div><label for="f1">Optional Text input:</label><input type="text" id="f1" value="input text" /></div>
-<div><label for="rt1">Required Text input:</label><input type="text" id="rt1" required /></div>
-<div><label for="twp1">Text input with pattern requirement and placeholder:</label><input type="text" pattern="\d{5}(-\d{4})?" title="a US Zip code, with or without the +4 exension" placeholder="12345-6789"/></div>
-<div><label for="s1">Search input:</label><input type="search" id="s1" /></div>
-<div><label for="e1">Email input:</label><input type="email" id="e1" /></div>
-<div><label for="u1">URL input:</label><input type="url" id="u1" /></div>
-<div><label for="pw">Password input:</label><input type="password" id="pw" value="password" /></div>
-<div><label for="f2">Radio input:</label><input type="radio" id="f2" /></div>
+        <div><label for="f3">Checkbox input:</label><input type="checkbox" id="f3" /></div>
+        <div><label for="f4">Select field:</label><select id="f4"><option>Option 01</option><option>Option 02</option></select></div>
 
-<div><label for="f3">Checkbox input:</label><input type="checkbox" id="f3" /></div>
-<div><label for="f4">Select field:</label><select id="f4"><option>Option 01</option><option>Option 02</option></select></div>
+        <div><label for="f5">Textarea:</label><textarea id="f5" cols="30" rows="5" >Textarea text</textarea></div>
+        <div><label for="f6">Input Button:</label> <input type="button" id="f6" value="button text" /></div>
 
-<div><label for="f5">Textarea:</label><textarea id="f5" cols="30" rows="5" >Textarea text</textarea></div>
-<div><label for="f6">Input Button:</label> <input type="button" id="f6" value="button text" /></div>
-
-<div><label for="f7">Submit Button:</label> <input type="submit" id="f7" value="button text" /></div>
-
-</fieldset>
-
+        <div><label for="f7">Submit Button:</label> <input type="submit" id="f7" value="button text" /></div>
+    </div>
 </form>
-
-
-<!-- thx peter beverloo: http://peter.sh/examples/?/html/meter-progress.html -->
-
-
-<p id="no-support" style="color: red; margin-bottom: 12px;"> 
-Your browser does not support these elements yet! Consider downloading a <a href="http://tools.peter.sh/download-latest-chromium.php">Chromium Nightly</a>.<br /> 
-
-</p> 
-
-<h3>&lt;progress&gt;</h3> 
-<p> 
-The progress element (spec: <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/the-button-element.html#the-progress-element">4.10.16</a>) represents the completion progress of a task and can be both indeterminate as determinate.
-</p> 
-<ul class="compact"> 
-<li> 
- <label>Indeterminate</label> 
- <progress max="100"></progress> 
-</li> 
-<li> 
- <label>Progress: 0%</label> 
- <progress max="10" value="0"></progress> 
-</li> 
-<li> 
- <label>Progress: 100%</label> 
- <progress max="3254" value="3254"></progress> 
-</li> 
-<li> 
- <label>Progress: 57%</label> 
- <progress max="0.7" value="0.4"></progress> 
-</li> 
-<li> 
- <label>Javascript</label> 
- <progress id="progress-javascript-example"></progress> 
-</li> 
-</ul> 
-
-<h3>&lt;meter&gt;</h3> 
-<p> 
-Displaying a scalar measurement within a known range, like hard drive usage, can be done using the meter element (spec: <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/the-button-element.html#the-meter-element">4.10.17</a>)
-</p> 
-<ul class="compact"> 
-<li> 
- <label>Meter: empty</label> 
- <meter value="0"></meter> 
-</li> 
-<li> 
- <label>Meter: full</label> 
- <meter value="1"></meter> 
-</li> 
-<li> 
- <label>Meter: "a bit"</label> 
- <meter min=".34" max=".41" value=".36"></meter> 
-</li> 
-<li> 
- <label>Preferred usage</label> 
- <meter min="50" max="250" low="100" high="200" value="120"></meter> 
-</li> 
-<li> 
- <label>Too much traffic</label> 
- <meter min="1024" max="10240" low="2048" high="8192" value="9216"></meter> 
-</li> 
-<li> 
- <label>Optimum value</label> 
- <meter value=".5" optimum=".8"></meter> 
-</li> 
-<li> 
- <label>Javascript</label> 
- <meter id="meter-javascript-example" value="0"></progress> 
-</li> 
-</ul> 
 
 </body>
 </html>

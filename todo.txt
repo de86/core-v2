@@ -1,6 +1,30 @@
+06 February 2016 15:39
+-------------------------
+
+Changes:
+- Reduced font sizes for headings
+- Made changes <a> and psuedo elements styling
+- Made changes to <blockquote> styling
+- Added footer to <blockquote> (for <cite> elements)
+- Completed styling of tables
+- Added .condensed class for tables
+- Styled <hr> element
+- Started styling of forms
+
+Todo:
+- Create alternative CSS layout for forms
+- Improve form HTML
+- Responsiveness
+- Grid
+- Buttons
+- Structural Elements
+- Gallery
+
+
 05 February 2016
 -------------------------
 
+To Do:
 - Finish Typography section
 - Tables
 - Buttons

@@ -18,6 +18,7 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+    box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -43,6 +44,10 @@ table {
 
 html {background-color: #fcfcfc;}
 
+hr {
+    border-top: 1px solid #333;
+    width: 90%;}
+
 /*******************************************/
 /******* T Y P O G R A P H Y ***************/
 /*******************************************/
@@ -56,7 +61,6 @@ body {
   color: #333; }
 
 p,ol,ul {
-    font-size: 1em;
     margin-bottom: 1.3em;}
 
 h1, h2, h3, h4 {
@@ -66,13 +70,13 @@ h1, h2, h3, h4 {
 
 h1 {
   margin-top: 0;
-  font-size: 6.854em; }
+  font-size: 3.998em; }
 
-h2 {font-size: 4.236em;}
-h3 {font-size: 2.618em;}
-h4 {font-size: 1.618em;}
+h2 {font-size: 2.827em;}
+h3 {font-size: 1.999em;}
+h4 {font-size: 1.414em;}
 
-small, .font_small {font-size: 0.618em;}
+small, .font_small {font-size: .707em;}
 
 em {
     font-style:italic;
@@ -85,60 +89,112 @@ strong {
 q:before {content: "\201C";}
 q:after {content: "\201D";}
 
+q q:before {content: "\2018";}
+q q:after {content: "\2019";}
+
 a{transition: .15s;}
 a:link,
-a:active{color:#36A9E3;}
+a:active{color:#0F92D4;}
 a:hover{color:#42C0FF;}
 a:visited{color:#1A526E;}
 
 code{ font-family: 'Source Code Pro', sans-serif; }
 
 blockquote {
-    margin-left: 3em;
-    margin-right: 3em;
-    background-color: #eee;
+    background-color:#eee;
     border-left: 3px solid #333;
-    padding: 1em 2em;}
+    font-size:1.414em;
+    margin: auto;
+    padding-top: 30px;
+    text-align: center;
+    width: 90%;}
 
 blockquote p:before{ content: "\201C"; }
 blockquote p:after{ content: "\201D"; }
-blockquote p{ margin: 0; }
+blockquote p{ margin: 0 auto 30px auto; }
 
-cite{
-    font-size:1.414em;
-    margin-top:1em;}
+blockquote cite{margin-top:1em;}
 
-blockquote cite{
-    clear:both;
-    float:right; }
+blockquote footer{
+    background-color: #333;
+    color:#fcfcfc;
+    padding: 7px 30px;
+    width: 100%;
+    text-align: right; }
 
 ol{
     font-size: 1em;
     list-style: decimal;
-    margin-left: 2.414em;}
+    margin-left: 2.414em; }
+
+ol ol{list-style:lower-roman;}
 
 ul{
     font-size: 1em;
     list-style: disc;
     margin-left: 2.414em; }
 
+ul ul{list-style: circle;}
 
 /*******************************************/
 /******* T A B L E S ***********************/
 /*******************************************/
 
+table{
+    background-color:#eee; 
+    margin-bottom: 1.8em;}
+
+caption{margin-bottom: .75em;}
+
+thead{
+    background-color:#333;
+    color:#fcfcfc;}
+
+tr:nth-child(even){background-color:#ccc;}
+
+th, td{padding: .75em 1em;}
+
+.table-condensed th,
+.table-condensed td{
+    padding: .33em 1em;}
 
 
+/*******************************************/
+/******* F O R M S *************************/
+/*******************************************/
 
+form{background-color:#eee;}
 
+form header{
+    background-color:#333;
+    color:#fcfcfc;
+    font-size: 1.999em;
+    padding: 30px;
+    }
 
+.form-body{padding: 30px;}
 
+input,
+textarea,
+label{
+    display:block;
+}
 
+input,
+textarea,
+select{
+    color: #333;
+    font-size:;
+    margin-bottom: 1em;
+    padding: .75em 1em;
+    font-family: 'Pontano Sans', 'Arial', sans-serif;
+}
 
+label{
+    margin-bottom: .5em;
+}
 
-
-
-
+.mandatory{color: #E60B66}
 
 
 
