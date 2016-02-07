@@ -1,3 +1,20 @@
+07 February 2016 18:13
+-------------------------
+
+Changes:
+
+- Created Buttons
+- Changed font size and padding of input fields
+
+Todo:
+- Create alternative CSS layout for forms
+- Improve form HTML
+- Responsiveness
+- Grid
+- Structural Elements
+- Gallery
+
+
 06 February 2016 15:39
 -------------------------
 
