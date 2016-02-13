@@ -1,3 +1,20 @@
+13 February 2016 19:03
+-------------------------
+
+Changes:
+
+- Created grid system
+- Validated CSS
+- Made minor changes to button colours
+- Fixed bug where some buttons had a black border
+- Fixed bug where some buttons were not shrinking properly on window resize
+
+Todo:
+- Improve form HTML
+- Structural Elements
+- Gallery
+
+
 07 February 2016 18:13
 -------------------------
 

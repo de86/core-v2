@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <!--
 
 HTML Template from Boilerplate
@@ -33,7 +34,7 @@ ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
 dolore eu fugiat nulla pariatur. <code>var name="Ron Burgundy"</code> Excepteur sint occaecat. non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         
 <p>
-Suspendisse rhoncus, est ac sollicitudin viverra, leo orci sagittis massa, sed condimentum <acronym title="">acronym text</acronym> est tortor a lectus. Curabitur porta feugiat ullamcorper. Integer lacinia mi id odio faucibus eget tincidunt nisl iaculis. Nam adipiscing hendrerit turpis, et porttitor felis sollicitudin et. Donec dictum massa ac neque accumsan tempor. Cras aliquam, ipsum sit amet laoreet hendrerit, purus <del>deleted text</del> sapien convallis dui, et porta leo ipsum ac nunc. Nullam ornare porta dui ac semper. Cras aliquam laoreet hendrerit. Quisque vulputate dolor eget mi porta vel porta nisl pretium. Vivamus non leo magna, quis imperdiet risus. Morbi tempor risus placerat tellus imperdiet fringilla. 
+Suspendisse rhoncus, est ac sollicitudin viverra, leo orci sagittis massa, sed condimentum est tortor a lectus. Curabitur porta feugiat ullamcorper. Integer lacinia mi id odio faucibus eget tincidunt nisl iaculis. Nam adipiscing hendrerit turpis, et porttitor felis sollicitudin et. Donec dictum massa ac neque accumsan tempor. Cras aliquam, ipsum sit amet laoreet hendrerit, purus <del>deleted text</del> sapien convallis dui, et porta leo ipsum ac nunc. Nullam ornare porta dui ac semper. Cras aliquam laoreet hendrerit. Quisque vulputate dolor eget mi porta vel porta nisl pretium. Vivamus non leo magna, quis imperdiet risus. Morbi tempor risus placerat tellus imperdiet fringilla. 
 </p>
 
 <blockquote>
@@ -77,7 +78,7 @@ ut labore et dolore magna aliqua.</p>
 <p>Lorem ipsum dolor sit amet,consectetur adipisicing elit, sed do eiusmod tempor incididunt 
 ut labore et dolore magna aliqua.</p>
 
-<pre><code>body { font:0.8125em/1.618 Arial, sans-serif; 
+<pre><code>body { font:8125em/1.618 Arial, sans-serif; 
 background-color:#fff;  
 color:#111;
 }</code></pre>
@@ -144,7 +145,7 @@ ut labore et dolore magna aliqua.</p>
 
 
    <h4>Tables</h4>
-	<table summary="Jimi Hendrix albums">
+	<table>
   <caption>Jimi Hendrix - albums</caption>
   <thead>
 	  <tr>
@@ -184,7 +185,7 @@ ut labore et dolore magna aliqua.</p>
 			<tbody>
 	</table>
         
-        <table summary="Jimi Hendrix albums" class="table-condensed">
+        <table class="table-condensed">
   <caption>Jimi Hendrix - albums</caption>
   <thead>
 	  <tr>
@@ -228,9 +229,7 @@ I am <a href="http://devkick.com/lab/tripoli/sample.php?abc123">the a tag</a> ex
 
 I am <abbr title="test">the abbr tag</abbr> example<br>
 
-I am <acronym>the acronym tag</acronym> example<br>
 I am <b>the b tag</b> example<br>
-I am <big>the big tag</big> example<br>
 
 I am <cite>the cite tag</cite> example<br>
 
@@ -240,7 +239,6 @@ I am <dfn>the dfn tag</dfn> example<br>
 
 I am <em>the em tag</em> example<br>
 
-I am <font face="verdana">the font tag</font> example<br>
 I am <i>the i tag</i> example<br>
 I am <ins>the ins tag</ins> example<br>
 
@@ -252,12 +250,10 @@ I am <samp>the samp tag</samp> example<br>
 
 I am <small>the small tag</small> example<br>
 I am <span>the span tag</span> example<br>
-I am <strike>the strike tag</strike> example<br>
 I am <strong>the strong tag</strong> example<br>
 
 I am <sub>the sub tag</sub> example<br>
 I am <sup>the sup tag</sup> example<br>
-I am <tt>the tt tag</tt> example<br>
 I am <var>the var tag</var> example<br>
 
 I am <u>the u tag</u> example
@@ -293,10 +289,6 @@ Baseline CSS Framework .</p>
 <code>&lt;/body&gt;</code>
 <code>&lt;/html&gt; </code>
 </pre>
-
-<tt>&lt;tt&gt;
-Pellentesque tempor, dui ut ultrices viverra, neque urna blandit nisi, id accumsan dolor est vitae risus.
-</tt>
 
 <hr>
 
@@ -350,7 +342,7 @@ Pellentesque tempor, dui ut ultrices viverra, neque urna blandit nisi, id accums
     <div class="form-body">
         <div><label for="f1">Optional Text input:<span class="mandatory">*</span></label><input type="text" id="f1" placeholder="input text" /></div>
         <div><label for="rt1">Required Text input:<span class="mandatory">*</span></label><input type="text" id="rt1" required /></div>
-        <div><label for="twp1">Text input with pattern requirement and placeholder:</label><input type="text" pattern="\d{5}(-\d{4})?" title="a US Zip code, with or without the +4 exension" placeholder="12345-6789"/></div>
+        <div><label>Text input with pattern requirement and placeholder:</label><input type="text" pattern="\d{5}(-\d{4})?" title="a US Zip code, with or without the +4 exension" placeholder="12345-6789"/></div>
         <div><label for="s1">Search input:<span class="mandatory">*</span></label><input type="search" id="s1" /></div>
         <div><label for="e1">Email input:<span class="mandatory">*</span></label><input type="email" id="e1" /></div>
         <div><label for="u1">URL input:</label><input type="url" id="u1" /></div>
@@ -370,7 +362,7 @@ Pellentesque tempor, dui ut ultrices viverra, neque urna blandit nisi, id accums
         <hr/>
         <div style="margin-bottom:30px">
             <a href="#" class="button">Button</a>
-            <span role="button">Button</span>
+            <span role="button" class="button">Button</span>
             <span class="button">Button</span>
         </div>
         <div style="margin-bottom:30px">
@@ -413,6 +405,110 @@ Pellentesque tempor, dui ut ultrices viverra, neque urna blandit nisi, id accums
             <span class="button ghost warning stacked">Button</span>
             <span class="button ghost error stacked">Button</span>
             <span class="button ghost disabled stacked">Button</span>
+        </div>
+        <hr />
+        <h2>Grid</h2>
+        <div class="grid-container">
+            <div class="row">
+                <div class="col sm-1-1 md-1-3 lg-1-1"></div>
+                <div class="col sm-1-1 md-1-3 lg-1-2"></div>
+                <div class="col sm-1-1 md-1-3 lg-1-2"></div>
+            </div>
+            <div class="row">
+                <div class="col sm-1-3"></div>
+                <div class="col sm-1-3"></div>
+                <div class="col sm-1-3"></div>
+            </div>
+            <div class="row">
+                <div class="col sm-1-4"></div>
+                <div class="col sm-1-4"></div>
+                <div class="col sm-1-4"></div>
+                <div class="col sm-1-4"></div>
+            </div>
+            <div class="row">
+                <div class="col sm-1-5"></div>
+                <div class="col sm-1-5"></div>
+                <div class="col sm-1-5"></div>
+                <div class="col sm-1-5"></div>
+                <div class="col sm-1-5"></div>
+            </div>
+            <div class="row">
+                <div class="col sm-1-6"></div>
+                <div class="col sm-1-6"></div>
+                <div class="col sm-1-6"></div>
+                <div class="col sm-1-6"></div>
+                <div class="col sm-1-6"></div>
+                <div class="col sm-1-6"></div>
+            </div>
+            <div class="row">
+                <div class="col sm-1-7"></div>
+                <div class="col sm-1-7"></div>
+                <div class="col sm-1-7"></div>
+                <div class="col sm-1-7"></div>
+                <div class="col sm-1-7"></div>
+                <div class="col sm-1-7"></div>
+                <div class="col sm-1-7"></div>
+            </div>
+            <div class="row">
+                <div class="col sm-1-8"></div>
+                <div class="col sm-1-8"></div>
+                <div class="col sm-1-8"></div>
+                <div class="col sm-1-8"></div>
+                <div class="col sm-1-8"></div>
+                <div class="col sm-1-8"></div>
+                <div class="col sm-1-8"></div>
+                <div class="col sm-1-8"></div>
+            </div>
+            <div class="row">
+                <div class="col sm-1-9"></div>
+                <div class="col sm-1-9"></div>
+                <div class="col sm-1-9"></div>
+                <div class="col sm-1-9"></div>
+                <div class="col sm-1-9"></div>
+                <div class="col sm-1-9"></div>
+                <div class="col sm-1-9"></div>
+                <div class="col sm-1-9"></div>
+                <div class="col sm-1-9"></div>
+            </div>
+            <div class="row">
+                <div class="col sm-1-10"></div>
+                <div class="col sm-1-10"></div>
+                <div class="col sm-1-10"></div>
+                <div class="col sm-1-10"></div>
+                <div class="col sm-1-10"></div>
+                <div class="col sm-1-10"></div>
+                <div class="col sm-1-10"></div>
+                <div class="col sm-1-10"></div>
+                <div class="col sm-1-10"></div>
+                <div class="col sm-1-10"></div>
+            </div>
+            <div class="row">
+                <div class="col sm-1-11"></div>
+                <div class="col sm-1-11"></div>
+                <div class="col sm-1-11"></div>
+                <div class="col sm-1-11"></div>
+                <div class="col sm-1-11"></div>
+                <div class="col sm-1-11"></div>
+                <div class="col sm-1-11"></div>
+                <div class="col sm-1-11"></div>
+                <div class="col sm-1-11"></div>
+                <div class="col sm-1-11"></div>
+                <div class="col sm-1-11"></div>
+            </div>
+            <div class="row">
+                <div class="col sm-1-12"></div>
+                <div class="col sm-1-12"></div>
+                <div class="col sm-1-12"></div>
+                <div class="col sm-1-12"></div>
+                <div class="col sm-1-12"></div>
+                <div class="col sm-1-12"></div>
+                <div class="col sm-1-12"></div>
+                <div class="col sm-1-12"></div>
+                <div class="col sm-1-12"></div>
+                <div class="col sm-1-12"></div>
+                <div class="col sm-1-12"></div>
+                <div class="col sm-1-12"></div>
+            </div>
         </div>
 </body>
 </html>
