@@ -1,3 +1,17 @@
+13 February 2016 21:04
+-------------------------
+
+Changes:
+
+- Change name of todo.txt to changelog.txt
+- Added hidden classes for grid system
+
+Todo:
+- Improve form HTML
+- Structural Elements
+- Gallery
+
+
 13 February 2016 19:03
 -------------------------
 
